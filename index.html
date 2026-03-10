@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <!-- FontAwesome para íconos sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -20,9 +22,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <a href="#home" class="logo-text">
-                    <span class="logo-sport">SPORT</span>
-                    <span class="logo-tech">TECH</span>
+                <a href="#home">
+                    <img src="assets/logo.png" alt="Sportech Logo" style="height: 50px;">
                 </a>
             </div>
             <ul class="nav-links">
@@ -37,17 +38,9 @@
     <header class="hero" id="home">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <!-- HTML/CSS rendition of the logo to ensure it loads always -->
             <div class="hero-logo-container">
-                <div class="logo-squares">
-                    <div class="square sq1"></div>
-                    <div class="square sq2"></div>
-                    <div class="square sq3"></div>
-                </div>
-                <div class="logo-text-large">
-                    <div class="logo-sport-large">SPORT</div>
-                    <div class="logo-tech-large">TECH</div>
-                </div>
+                <img src="assets/logo.png" alt="Sportech Logo"
+                    style="max-width: 400px; width: 100%; border-radius: 8px;">
             </div>
             <div class="logo-slogan">SERVICIOS TECNOLÓGICOS PARA EVENTOS DEPORTIVOS</div>
 
@@ -186,26 +179,24 @@
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <div class="logo-text" style="color: white; margin-bottom: 10px;">
-                    <span class="logo-sport" style="color: #fff; text-shadow: none;">SPORT</span><span class="logo-tech"
-                        style="color: #fff; text-shadow: none;">TECH</span>
-                </div>
+                <img src="assets/logo.png" alt="Sportech Logo" style="height: 60px; margin-bottom: 15px;">
                 <p>Servicios tecnológicos para eventos deportivos.</p>
             </div>
             <div class="footer-links">
                 <h3>Contacto</h3>
                 <ul>
-                    <li>Email: soporte@sportech.com</li>
-                    <li>Teléfono: +123 456 7890</li>
-                    <li>Ubicación: Buenos Aires, Argentina</li>
+                    <li><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> sporttechros@gmail.com</li>
+                    <li><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> Rosario, Santa Fe, Argentina
+                    </li>
                 </ul>
             </div>
             <div class="footer-social">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
-                    <a href="#">Instagram</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Facebook</a>
+                    <a href="https://instagram.com/Sport.tech.arg" target="_blank"><i class="fa-brands fa-instagram"
+                            style="margin-right: 8px; font-size: 1.2rem;"></i> @Sport.tech.arg</a>
+                    <a href="https://youtube.com/@SportTechRos" target="_blank"><i class="fa-brands fa-youtube"
+                            style="margin-right: 8px; font-size: 1.2rem;"></i> @SportTechRos</a>
                 </div>
             </div>
         </div>

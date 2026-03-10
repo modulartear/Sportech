@@ -121,7 +121,7 @@ span {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('assets/stadium_hero_1773170555703.png') center/cover no-repeat;
+    background: url('assets/boxing_hero.png') center/cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ span {
     width: 100%;
     height: 100%;
     /* Reverted to dark overlay */
-    background: linear-gradient(to bottom, rgba(11, 11, 12, 0.4) 0%, rgba(11, 11, 12, 1) 100%);
+    background: linear-gradient(to bottom, rgba(11, 11, 12, 2.55) 0%, rgba(11, 11, 12, 0.75) 100%);
     z-index: 1;
 }
 
